@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Seashell Perfumes — Signature Fragrances</title>
+</head>
+<body>
+
+  <center>
+  <!-- Header and navigation -->
+  <header>
+    <div>
+      <img src="download (1)">
+    <nav>
+      <a href="#home">Home</a> |
+      <a href="#collection">Collection</a> |
+      <a href="#pricing">Pricing</a> |
+      <a href="#order">Order</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+    <hr>
+  </header>
+
+  <!-- Hero / Landing -->
+  <main>
+    <section id="home">
+      <div>
+        <h1>Seashell Perfumes — Elegance in Every Bottle</h1>
+        <p>Discover our handcrafted fragrances, created from the finest essences around the world. Celebrate moments with scents that linger.</p>
+        <figure>
+          <img src="images/download (3)" alt="Signature perfume bottle">
+          <figcaption>Signature Collection — A refined balance of floral and amber notes.</figcaption>
+        </figure>
+        <p>
+          <strong>Open now:</strong> Free samples available with every first order. Limited-time seasonal scents now in stock.
+        </p>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Collection / Products -->
+    <section id="collection">
+      <h2>Featured Collection</h2>
+
+      <article>
+        <h3>Aurora Noir</h3>
+        <p>A deep, mysterious fragrance with oud, bergamot and patchouli. Perfect for evening wear.</p>
+        <figure>
+          <img src="images/Profumi energizzanti donna, le migliori fragranze che ci danno la carica.jpg">
+          <figcaption>Aurora Noir — 50 ml and 100 ml available</figcaption>
+        </figure>
+      </article>
+
+      <article>
+        <h3>Morning Dew</h3>
+        <p>Fresh citrus top notes with jasmine and a soft musk base. Light and invigorating for daytime.</p>
+        <figure>
+          <img src="images/La colonia fresca, cítrica y limpia para oler bien en verano durante todo el día.jpg" alt="Morning Dew bottle">
+          <figcaption>Morning Dew — Eau de toilette</figcaption>
+        </figure>
+      </article>
+
+      <article>
+        <h3>Velvet Rose</h3>
+        <p>Classic rose with vanilla and saffron undertones. A timeless romantic scent.</p>
+        <figure>
+          <img src="images/download (4).jpg" alt="Velvet Rose bottle">
+          <figcaption>Velvet Rose — Limited edition</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- Pricing table -->
+    <section id="pricing">
+      <h2>Pricing & Options</h2>
+      <table border="1" cellpadding="6" cellspacing="0" align="center">
+        <caption>Perfume Sizes and Prices</caption>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>30 ml</th>
+            <th>50 ml</th>
+            <th>100 ml</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Aurora Noir</td>
+            <td>₱2,610</td>
+            <td>₱3,944</td>
+            <td>₱6,960</td>
+          </tr>
+          <tr>
+            <td>Morning Dew</td>
+            <td>₱2,030</td>
+            <td>₱3,190</td>
+            <td>₱5,510</td>
+          </tr>
+          <tr>
+            <td>Velvet Rose</td>
+            <td>₱2,320</td>
+            <td>₱3,480</td>
+            <td>₱6,380</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        Payment methods accepted: Credit Card, Debit Card, Bank Transfer. Shipping worldwide.
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- Quick order form -->
+    <section id="order">
+      <h2>Order Now</h2>
+      <form action="#" method="post" enctype="application/x-www-form-urlencoded" autocomplete="on">
+        <fieldset>
+          <legend>Customer details</legend>
+
+          <label for="fullname">Full name:</label><br>
+          <input type="text" id="fullname" name="fullname" required placeholder="Keith Mejia"><br><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required placeholder="you@gmail.com"><br><br>
+
+          <label for="phone">Phone:</label><br>
+          <input type="tel" id="phone" name="phone" placeholder="+6395634217"><br><br>
+
+          <label for="address">Shipping address:</label><br>
+          <textarea id="address" name="address" rows="3" cols="40" placeholder="Street, City, Country"></textarea><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Order details</legend>
+
+          <label for="product">Choose product:</label><br>
+          <select id="product" name="product">
+            <option value="aurora_noir">Aurora Noir</option>
+            <option value="morning_dew">Morning Dew</option>
+            <option value="velvet_rose">Velvet Rose</option>
+          </select><br><br>
+
+          <label for="size">Size:</label><br>
+          <input type="radio" id="size30" name="size" value="30" checked>
+          <label for="size30">30 ml</label>
+          <input type="radio" id="size50" name="size" value="50">
+          <label for="size50">50 ml</label>
+          <input type="radio" id="size100" name="size" value="100">
+          <label for="size100">100 ml</label><br><br>
+
+          <label for="quantity">Quantity:</label><br>
+          <input type="number" id="quantity" name="quantity" min="1" max="10" value="1"><br><br>
+
+          <label>
+            <input type="checkbox" name="gift_wrap" value="yes"> Add gift wrap
+          </label><br><br>
+
+          <label for="delivery">Delivery method:</label><br>
+          <select id="delivery" name="delivery">
+            <option value="standard">Standard Shipping (5-10 days)</option>
+            <option value="express">Express Shipping (2-3 days)</option>
+            <option value="pickup">Local Pickup</option>
+          </select><br><br>
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Payment</legend>
+          <label for="cardname">Name on card:</label><br>
+          <input type="text" id="cardname" name="cardname"><br><br>
+
+          <label for="cardnumber">Card number:</label><br>
+          <input type="text" id="cardnumber" name="cardnumber" inputmode="numeric" placeholder="•••• •••• •••• ••••"><br><br>
+
+          <label for="exp">Expiry date:</label><br>
+          <input type="month" id="exp" name="exp"><br><br>
+
+          <label for="cvv">CVV:</label><br>
+          <input type="password" id="cvv" name="cvv" maxlength="4" placeholder="123"><br><br>
+        </fieldset>
+
+        <button type="submit">Place Order</button>
+      </form>
+    </section>
+
+    <hr>
+
+    <!-- Newsletter / subscription -->
+    <section id="subscribe">
+      <h2>Subscribe for Samples & News</h2>
+      <form action="#" method="post">
+        <label for="sub_email">Email address:</label><br>
+        <input type="email" id="sub_email" name="sub_email" required placeholder="you@gmail.com"><br><br>
+
+        <label for="pref">Preferred scent notes:</label><br>
+        <select id="pref" name="pref">
+          <option value="floral">Floral</option>
+          <option value="oriental">Oriental</option>
+          <option value="fresh">Fresh / Citrus</option>
+          <option value="woody">Woody</option>
+        </select><br><br>
+
+        <label for="sample">Request a sample:</label><br>
+        <input list="samples" id="sample" name="sample" placeholder="Pick a sample">
+        <datalist id="samples">
+          <option value="Aurora Noir - 2ml">
+          <option value="Morning Dew - 2ml">
+          <option value="Velvet Rose - 2ml">
+        </datalist><br><br>
+
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <hr>
+
+    </section>
+
+    <hr>
+
+    <!-- Testimonials and reviews (using blockquote) -->
+    <section id="testimonials">
+      <h2>What customers say</h2>
+
+      <blockquote>
+        "Aurora Noir is my signature scent — long-lasting and sophisticated. I receive compliments every time I wear it."
+        <footer>— Emily R., New York</footer>
+      </blockquote>
+
+      <blockquote>
+        "Soft, airy and perfect for summer. Morning Dew feels like a fresh start."
+        <footer>— Carlos M., Lisbon</footer>
+      </blockquote>
+    </section>
+
+    <hr>
+
+    <!-- Contact and company details -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+
+      <address>
+        Seashell Perfumes Ltd.<br>
+        12 Scent Street<br>
+        Perfume City, PC 12345<br>
+        <a href="tel:+6395634217">+639563421</a><br>
+        <a href="mailto:seashellperfumes@gmail.com">seashellperfumes@gmail.com</a>
+      </address>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Send us a message</legend>
+          <label for="cname">Your name:</label><br>
+          <input type="text" id="cname" name="cname"><br><br>
+
+          <label for="cemail">Your email:</label><br>
+          <input type="email" id="cemail" name="cemail"><br><br>
+
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="50" placeholder="How can we help?"></textarea><br><br>
+
+          <button type="submit">Send Message</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <hr>
+
+    <!-- Additional HTML elements to demonstrate completeness -->
+    <section id="extras">
+      <h2>Extras & Info</h2>
+      <p>
+        Use <strong>fieldsets</strong> for grouping form controls, <em>figures</em> for images with captions, and <small>small text</small> for fine print.
+      </p>
+
+      <details>
+        <summary>Shipping & Returns</summary>
+        <p>Standard shipping takes 5–10 business days. Returns accepted within 30 days unopened, subject to our returns policy.</p>
+      </details>
+
+      <p>
+        <meter value="0.7" min="0" max="1">70%</meter>
+        <progress value="45" max="100">45%</progress>
+      </p>
+
+      <ol>
+        <li>Choose your fragrance</li>
+        <li>Place your order</li>
+        <li>Enjoy the scent</li>
+      </ol>
+
+      <ul>
+        <li>Free sample with first order</li>
+        <li>Gift wrapping available</li>
+        <li>Secure payment</li>
+      </ul>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <hr>
+    <p>&copy; 2026 Seashell Perfumes. All rights reserved.</p>
+    <p>
+      Follow us:
+      <a href="#" title="Instagram">Instagram</a> |
+      <a href="#" title="Facebook">Facebook</a> |
+      <a href="#" title="Twitter">Twitter</a>
+    </p>
+  </footer>
+  </center>
+
+</body>
+</html>
